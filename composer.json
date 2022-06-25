@@ -1,0 +1,15 @@
+{
+    "name": "imefisto/swoole-slim",
+    "autoload": {
+        "psr-4": {
+            "Imefisto\\SwooleSlim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ignacio El Kadre",
+            "email": "imefisto@gmail.com"
+        }
+    ],
+    "require": {}
+}
