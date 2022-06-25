@@ -13,7 +13,6 @@ $server->on('request', function (
     Request $swooleRequest,
     Response $swooleResponse
 ) {
-    print_r($swooleRequest->server);
     $swooleResponse->status(200);
     $swooleResponse->end();
 });
