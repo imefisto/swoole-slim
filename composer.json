@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "slim/slim": "4.*"
+        "slim/slim": "4.*",
+        "imefisto/psr-swoole-native": "^1.1"
     }
 }

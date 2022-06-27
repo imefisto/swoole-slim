@@ -4,8 +4,117 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73a154617ade87c8f862d7dcd8cd1e6e",
+    "content-hash": "25938e39a38a8c16a8b7d29ac58af528",
     "packages": [
+        {
+            "name": "dflydev/fig-cookies",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
+                "reference": "ea6934204b1b34ffdf5130dc7e0928d18ced2498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/ea6934204b1b34ffdf5130dc7e0928d18ced2498",
+                "reference": "ea6934204b1b34ffdf5130dc7e0928d18ced2498",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": "^7.2 || ^8.0",
+                "psr/http-message": "^1"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^8",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpunit/phpunit": "^7.2.6 || ^9",
+                "scrutinizer/ocular": "^1.8",
+                "squizlabs/php_codesniffer": "^3.3",
+                "vimeo/psalm": "^4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dflydev\\FigCookies\\": "src/Dflydev/FigCookies"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com"
+                }
+            ],
+            "description": "Cookies for PSR-7 HTTP Message Interface.",
+            "keywords": [
+                "cookies",
+                "psr-7",
+                "psr7"
+            ],
+            "support": {
+                "issues": "https://github.com/dflydev/dflydev-fig-cookies/issues",
+                "source": "https://github.com/dflydev/dflydev-fig-cookies/tree/v3.0.0"
+            },
+            "time": "2021-01-22T02:53:56+00:00"
+        },
+        {
+            "name": "imefisto/psr-swoole-native",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imefisto/psr-swoole-native.git",
+                "reference": "ec3ce5a9a4f2b62affd11ff8a77c7e1e0dc0ae6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imefisto/psr-swoole-native/zipball/ec3ce5a9a4f2b62affd11ff8a77c7e1e0dc0ae6e",
+                "reference": "ec3ce5a9a4f2b62affd11ff8a77c7e1e0dc0ae6e",
+                "shasum": ""
+            },
+            "require": {
+                "dflydev/fig-cookies": "^2.0 || ^3.0",
+                "php": "^7.2 || ^8.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "nyholm/psr7": "^1.0",
+                "phpunit/phpunit": "^8.5",
+                "swoole/ide-helper": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Imefisto\\PsrSwoole\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignacio El Kadre",
+                    "email": "imefisto@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/imefisto/psr-swoole-native/issues",
+                "source": "https://github.com/imefisto/psr-swoole-native/tree/v1.1.0"
+            },
+            "time": "2022-02-19T15:55:18+00:00"
+        },
         {
             "name": "nikic/fast-route",
             "version": "v1.3.0",
