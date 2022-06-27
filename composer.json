@@ -11,5 +11,7 @@
             "email": "imefisto@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "slim/slim": "4.*"
+    }
 }
