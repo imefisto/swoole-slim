@@ -14,7 +14,7 @@ $server->on('request', function (
     Response $swooleResponse
 ) {
     $swooleResponse->status(200);
-    $swooleResponse->end();
+    $swooleResponse->end('OK');
 });
 
 $server->start();
