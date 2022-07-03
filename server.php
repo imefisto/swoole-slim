@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
 use Swoole\Http\Request;
 use Swoole\Http\Response;
